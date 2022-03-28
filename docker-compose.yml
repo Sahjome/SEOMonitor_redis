@@ -4,9 +4,9 @@ services:
       context: .
       dockerfile: .docker/php/Dockerfile
     container_name: phpclass
-    # links:
-    # - redis
+    links:
+    - redis
 
-  # redis:
-  #   container_name: phpredis
-  #   build: .docker/redis
+  redis:
+    container_name: phpredis
+    build: .docker/redis
