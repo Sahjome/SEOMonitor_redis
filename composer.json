@@ -1,5 +1,5 @@
 {
-    "name": "joseph/phpredisext",
+    "name": "sahjome/phpredisext",
     "description": "auto connect redis with options",
     "type": "library",
     "authors": [
