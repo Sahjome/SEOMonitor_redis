@@ -1,1 +1,12 @@
-FROM 
+services:
+  php:
+    build:
+      context: .
+      dockerfile: .docker/php/Dockerfile
+    container_name: phpclass
+    # links:
+    # - redis
+
+  # redis:
+  #   container_name: phpredis
+  #   build: .docker/redis
