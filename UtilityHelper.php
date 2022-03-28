@@ -1,4 +1,5 @@
 <?php
+namespace PhpRedisExtended;
 class UtilityHelper
 {
     function get_calling_class() {

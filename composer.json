@@ -1,0 +1,15 @@
+{
+    "name": "joseph/phpredisext",
+    "description": "auto connect redis with options",
+    "type": "library",
+    "authors": [
+        {
+            "name": "joseph saheeb"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"PhpRedisExtended\\": "src/"}
+    },
+    "require": {}
+}
