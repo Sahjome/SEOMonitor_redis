@@ -1,10 +1,11 @@
 <?php
+namespace PhpRedisExtended;
 require('UtilityHelper.php');
 class RedisHelper{
 
     private $callingClass;
     
-    function __construct(private array $options, private bool $prefix)
+    function __construct(private array $options, private bool $prefix = true)
     {
         $utilityHelper = new UtilityHelper();
         $this->callingClass = $utilityHelper->get_calling_class();
