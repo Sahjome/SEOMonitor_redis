@@ -11,5 +11,7 @@
     "autoload": {
         "psr-4": {"PhpRedisExtended\\": "src/"}
     },
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.4.1"
+    }
 }
